@@ -13,6 +13,7 @@
 // limitations under the License.
 
 #import "MDCActivityIndicatorMotionSpec.h"
+#import "MDMMotionCurve.h"
 
 @implementation MDCActivityIndicatorMotionSpec
 

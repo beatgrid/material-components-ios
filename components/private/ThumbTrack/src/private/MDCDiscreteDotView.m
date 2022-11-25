@@ -64,10 +64,8 @@
     CGFloat trackHeight = CGRectGetHeight(self.bounds);
     CGFloat dotHeight = MIN(2, trackHeight);
     CGFloat dotWidth = MIN(2, trackHeight);
-    CGFloat circleOriginY = (trackHeight - dotHeight) / 2;
     if (trackHeight > 4) {
       dotHeight = trackHeight / 2;
-      circleOriginY = (trackHeight - dotHeight) / 2;
     }
     CGRect dotRect = CGRectMake(0, (trackHeight - dotHeight) / 2, dotWidth, dotHeight);
     // Increment within the bounds
