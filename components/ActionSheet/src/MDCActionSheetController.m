@@ -297,6 +297,7 @@ static NSString *const kMaterialActionSheetBundle = @"MaterialActionSheet.bundle
 }
 
 - (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
   for (MDCActionSheetAction *action in self.actions) {
     action.actionSheet = nil;
   }
